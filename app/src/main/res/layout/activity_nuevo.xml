@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".NuevoActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar"
+                    android:drawableBottom="@drawable/boligrafo"
+                    android:fontFamily="@font/dancing_love"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"/>
+
+                <EditText
+                    android:id="@+id/txtNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="14dp"
+                    android:layout_marginBottom="2dp"
+                    android:ems="10"
+                    android:hint="@string/hint_nombre"
+                    android:inputType="textPersonName"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/txtApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="14dp"
+                    android:ems="10"
+                    android:hint="@string/hint_apellido"
+                    android:inputType="textPersonName"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/txtTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="14dp"
+                    android:ems="10"
+                    android:hint="@string/hint_telefono"
+                    android:inputType="phone"
+                    android:minHeight="48dp"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/txtFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="14dp"
+                    android:drawableTop="@drawable/ic__calendar_24"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/hint_fecha"
+                    android:inputType="date"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/txtHora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="14dp"
+                    android:drawableTop="@drawable/ic_time"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/hint_hora"
+                    android:inputType="time"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/btnGuarda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_Guarda" />
+        </LinearLayout>
+
+</RelativeLayout>

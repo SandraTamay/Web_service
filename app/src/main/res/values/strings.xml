@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AgendaDb</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_apellido">Apellido:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="btn_Guarda">Guardar</string>
+    <string name="menu">Nuevo registro</string>
+    <string name="hint_fecha">Fecha:</string>
+    <string name="hint_hora">Hora:</string>
+    <string name="text_lista">Lista</string>
+    <string name="forgot"><font color='#c4c4c4'>Forgot your login details?</font><b>Registarse</b></string>
+    <string name="sign_up"><font color='#c4c4c4'>Don\'t have an accout</font>Sign up.</string>
+</resources>
